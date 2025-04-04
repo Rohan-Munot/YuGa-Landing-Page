@@ -7,8 +7,10 @@
 @layer base {
   html {
     font-family: "DM Sans", sans-serif;
+    scroll-behavior: smooth;
   }
   body {
     font-family: "Alata", sans-serif;
+    scroll-behavior: smooth;
   }
 }

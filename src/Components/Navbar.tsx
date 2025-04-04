@@ -1,11 +1,11 @@
 function Navbar() {
   return (
     <nav className="font-[Alata] flex text-sm absolute z-10 w-full items-center justify-center">
-      <div className="flex gap-[180px] w-[1320px] h-[60px] px-10 py-3 bg-white rounded-[111px] flex-row items-center mx-[60px] mt-12">
-        <span className="justify-center text-[#333f47] text-[28px] font-normal leading-normal">
+      <div className="flex gap-[180px] w-full h-[60px] px-10 py-3 bg-white rounded-[111px] flex-ro justify-centerw items-center mx-[60px] mt-12">
+        <span className=" justify-center text-[#333f47] text-[28px] font-normal leading-normal">
           YuGa
         </span>
-        <div className="flex flex-row gap-[180px] w-full justify-center">
+        <div className="flex flex-row gap-[180px] w-full justify-around">
           <div className="flex flex-row gap-10 justify-center items-center">
             <a
               href="#"
