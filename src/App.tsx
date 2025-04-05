@@ -141,7 +141,7 @@ function App() {
           </>
         </div>
       </section>
-      <section className="relative py-20 w-full flex items-center justify-center">
+      <section className="w-full flex items-center justify-center">
         <div className="w-full justify-center relative flex flex-col items-center">
           <img src="/longLine.svg" className="my-2 mb-2"></img>
           <div className=" h-[196px] absolute left-[55px] top-1/5 ">
@@ -201,6 +201,114 @@ function App() {
           <button className="h-[50px] px-[25px] py-4 bg-[#1256fb] rounded-[100px] outline-1 mt-5 outline-offset-[-1px] outline-[#2b59fc] inline-flex justify-center items-center gap-2.5 text-white text-xl font-semibold font-['Rethink_Sans'] leading-normal cursor-pointer">
             Sign up for free
           </button>
+        </div>
+      </section>
+
+      <section className="mt-15 pb-20 w-full flex items-center justify-center">
+        <div className="w-full justify-center relative flex flex-col items-center">
+          <img src="/whyUs.svg" className="w-full"></img>
+
+          <div className="h-[874px] relative bg-[#0f54fa] w-full">
+            <div className="absolute flex flex-col gap-20 mx-15 items-center justify-center top-[163px]">
+              <h1 className="self-stretch text-center justify-start text-white text-[56px] font-normal font-['Alata'] leading-[60px]">
+                Why Choose Us?
+              </h1>
+
+              <div className="relative w-full h-full">
+                <div className="grid grid-cols-3 gap-x-6 gap-y-14 w-full">
+                  <div className="h-[174px] flex flex-col justify-start items-start gap-1.5 relative">
+                    <h2 className="self-stretch justify-start text-white text-[32px] font-normal font-['Alata'] leading-10">
+                      Streamlined Athlete Enrollment
+                    </h2>
+                    <p className="self-stretch justify-start text-[#f4f5f7] text-lg font-normal font-['Rethink_Sans'] leading-7">
+                      Our platform powers over 250 successful championships,
+                      delivering seamless event management and top-tier
+                      competition experiences.
+                    </p>
+                    <img
+                      src="/Line1.svg"
+                      className="absolute -bottom-2 w-[92%] left-0"
+                    />
+                  </div>
+                  <div className="h-[174px] flex flex-col justify-start items-start gap-1.5 relative">
+                    <h2 className="self-stretch justify-start text-white text-[32px] font-normal font-['Alata'] leading-10">
+                      Streamlined Athlete Enrollment
+                    </h2>
+                    <p className="self-stretch justify-start text-[#f4f5f7] text-lg font-normal font-['Rethink_Sans'] leading-7">
+                      Our platform powers over 250 successful championships,
+                      delivering seamless event management and top-tier
+                      competition experiences.
+                    </p>
+                    <img
+                      src="/Line3.svg"
+                      className="absolute -top-8 h-[193px] -left-9"
+                    />
+                    <img
+                      src="/Line2.svg"
+                      className="absolute -bottom-2 w-[92%] left-0"
+                    />
+                  </div>
+                  <div className="h-[174px] flex flex-col justify-start items-start gap-1.5 relative">
+                    <h2 className="self-stretch justify-start text-white text-[32px] font-normal font-['Alata'] leading-10">
+                      Streamlined Athlete Enrollment
+                    </h2>
+                    <p className="self-stretch justify-start text-[#f4f5f7] text-lg font-normal font-['Rethink_Sans'] leading-7">
+                      Our platform powers over 250 successful championships,
+                      delivering seamless event management and top-tier
+                      competition experiences.
+                    </p>
+                    <img
+                      src="/Line1.svg"
+                      className="absolute -bottom-2 rotate-180 w-[92%] left-0"
+                    />
+                    <img
+                      src="/Line3.svg"
+                      className="absolute -top-8 h-[193px] -left-9"
+                    />
+                  </div>
+                  <div className="h-[174px] flex flex-col justify-start items-start gap-1.5 relative">
+                    <h2 className="self-stretch justify-start text-white text-[32px] font-normal font-['Alata'] leading-10">
+                      Streamlined Athlete Enrollment
+                    </h2>
+                    <p className="self-stretch justify-start text-[#f4f5f7] text-lg font-normal font-['Rethink_Sans'] leading-7">
+                      Our platform powers over 250 successful championships,
+                      delivering seamless event management and top-tier
+                      competition experiences.
+                    </p>
+                  </div>
+                  <div className="h-[174px] flex flex-col justify-start items-start gap-1.5 relative">
+                    <h2 className="self-stretch justify-start text-white text-[32px] font-normal font-['Alata'] leading-10">
+                      Streamlined Athlete Enrollment
+                    </h2>
+                    <p className="self-stretch justify-start text-[#f4f5f7] text-lg font-normal font-['Rethink_Sans'] leading-7">
+                      Our platform powers over 250 successful championships,
+                      delivering seamless event management and top-tier
+                      competition experiences.
+                    </p>
+                    <img
+                      src="/Line3.svg"
+                      className="absolute -top-8 h-[193px] rotate-180 -left-9"
+                    />
+                  </div>
+                  <div className="h-[174px] flex flex-col justify-start items-start gap-1.5 relative">
+                    <h2 className="self-stretch justify-start text-white text-[32px] font-normal font-['Alata'] leading-10">
+                      Streamlined Athlete Enrollment
+                    </h2>
+                    <p className="self-stretch justify-start text-[#f4f5f7] text-lg font-normal font-['Rethink_Sans'] leading-7">
+                      Our platform powers over 250 successful championships,
+                      delivering seamless event management and top-tier
+                      competition experiences.
+                    </p>
+                    <img
+                      src="/Line3.svg"
+                      className="absolute -top-8 h-[193px] rotate-180 -left-9"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img src="/whyUs2.svg" className="w-full"></img>
         </div>
       </section>
     </div>
