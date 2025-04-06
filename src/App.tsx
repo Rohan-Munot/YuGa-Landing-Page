@@ -82,7 +82,7 @@ function App() {
           </div>
 
           <>
-            <div className="absolute  -top-8 left-30 z-10">
+            <div className="absolute  -top-5 left-30 z-10">
               <img
                 src="/Ellipse1.png"
                 alt="Champion"
@@ -110,7 +110,7 @@ function App() {
                 className="w-full h-auto"
               />
             </div>
-            <div className="absolute -top-8 right-30 z-10">
+            <div className="absolute -top-5 right-30 z-10">
               <img
                 src="/Ellipse1.png"
                 alt="Champion"
@@ -154,7 +154,7 @@ function App() {
                 <h1 className=" justify-start text-[#04070d] text-[52px] font-normal font-['Alata'] leading-[62px]">
                   250+ Championships <br></br> Organized
                 </h1>
-                <span className=" justify-start text-[#737677] text-lg font-normal font-['Rethink_Sans'] leading-7">
+                <span className=" justify-start bg-white/75 text-[#737677] text-lg font-normal font-['Rethink_Sans'] leading-7">
                   Our platform powers over 250 successful championships,
                   delivering seamless<br></br> event management and top-tier
                   competition experiences.
@@ -172,7 +172,7 @@ function App() {
                 <h1 className=" justify-start text-[#04070d] text-[52px] font-normal font-['Alata'] leading-[62px]">
                   3,000+ Athletes<br></br> Empowered
                 </h1>
-                <span className=" justify-start text-[#737677] text-lg font-normal font-['Rethink_Sans'] leading-7">
+                <span className=" justify-start bg-white/75 text-[#737677] text-lg font-normal font-['Rethink_Sans'] leading-7">
                   Over 3,000 athletes trust our system to manage and celebrate
                   their achievements.<br></br> Be part of a community that’s
                   redefining excellence and driving competitive<br></br> spirit!
@@ -190,7 +190,7 @@ function App() {
                 <h1 className=" justify-start text-[#04070d] text-[52px] font-normal font-['Alata'] leading-[62px]">
                   100,000+ Events<br></br> Logged
                 </h1>
-                <span className=" justify-start text-[#737677] text-lg font-normal font-['Rethink_Sans'] leading-7">
+                <span className=" justify-start bg-white/75 text-[#737677] text-lg font-normal font-['Rethink_Sans'] leading-7">
                   Over 3,000 athletes trust our system to manage and celebrate
                   their<br></br> achievements. Be part of a community that’s
                   redefining excellence and<br></br> driving competitive spirit!
@@ -216,7 +216,7 @@ function App() {
 
               <div className="relative w-full h-full">
                 <div className="grid grid-cols-3 gap-x-6 gap-y-14 w-full">
-                  <div className="h-[174px] flex flex-col justify-start items-start gap-1.5 relative">
+                  <div className="h-[200px]  w-[]  flex flex-col justify-start items-start gap-1.5 relative">
                     <h2 className="self-stretch justify-start text-white text-[32px] font-normal font-['Alata'] leading-10">
                       Streamlined Athlete Enrollment
                     </h2>
@@ -230,32 +230,32 @@ function App() {
                       className="absolute -bottom-2 w-[92%] left-0"
                     />
                   </div>
-                  <div className="h-[174px] flex flex-col justify-start items-start gap-1.5 relative">
+                  <div className="h-[200px]  w-[] flex flex-col justify-start items-start gap-1.5 relative">
                     <h2 className="self-stretch justify-start text-white text-[32px] font-normal font-['Alata'] leading-10">
-                      Streamlined Athlete Enrollment
+                      Comprehensive Panel Creation
                     </h2>
                     <p className="self-stretch justify-start text-[#f4f5f7] text-lg font-normal font-['Rethink_Sans'] leading-7">
-                      Our platform powers over 250 successful championships,
-                      delivering seamless event management and top-tier
-                      competition experiences.
+                      Build and manage judge panels effortlessly—assign roles
+                      and responsibilities to ensure fair and consistent
+                      evaluations.
                     </p>
                     <img
                       src="/Line3.svg"
-                      className="absolute -top-8 h-[193px] -left-9"
+                      className="absolute -top-5 h-[193px] -left-7"
                     />
                     <img
                       src="/Line2.svg"
                       className="absolute -bottom-2 w-[92%] left-0"
                     />
                   </div>
-                  <div className="h-[174px] flex flex-col justify-start items-start gap-1.5 relative">
+                  <div className="h-[200px] w-[]  flex flex-col justify-start items-start gap-1.5 relative">
                     <h2 className="self-stretch justify-start text-white text-[32px] font-normal font-['Alata'] leading-10">
-                      Streamlined Athlete Enrollment
+                      Seamless Multi-Level Management
                     </h2>
                     <p className="self-stretch justify-start text-[#f4f5f7] text-lg font-normal font-['Rethink_Sans'] leading-7">
-                      Our platform powers over 250 successful championships,
-                      delivering seamless event management and top-tier
-                      competition experiences.
+                      With robust features tailored for L1, L2, and L3, our
+                      platform integrates administrative tasks, competition
+                      oversight.
                     </p>
                     <img
                       src="/Line1.svg"
@@ -263,50 +263,55 @@ function App() {
                     />
                     <img
                       src="/Line3.svg"
-                      className="absolute -top-8 h-[193px] -left-9"
+                      className="absolute -top-5 h-[193px] -left-7"
                     />
                   </div>
-                  <div className="h-[174px] flex flex-col justify-start items-start gap-1.5 relative">
+                  <div className="h-[200px] w-[]  flex flex-col justify-start items-start gap-1.5 relative">
                     <h2 className="self-stretch justify-start text-white text-[32px] font-normal font-['Alata'] leading-10">
-                      Streamlined Athlete Enrollment
+                      Dynamic Event & Result Tracking
                     </h2>
                     <p className="self-stretch justify-start text-[#f4f5f7] text-lg font-normal font-['Rethink_Sans'] leading-7">
-                      Our platform powers over 250 successful championships,
-                      delivering seamless event management and top-tier
-                      competition experiences.
+                      Log and track thousands of events in real time, providing
+                      clear insights and analytics to help you monitor progress
+                      and celebrate success
                     </p>
                   </div>
-                  <div className="h-[174px] flex flex-col justify-start items-start gap-1.5 relative">
+                  <div className="h-[200px] w-[]  flex flex-col justify-start items-start gap-1.5 relative">
                     <h2 className="self-stretch justify-start text-white text-[32px] font-normal font-['Alata'] leading-10">
-                      Streamlined Athlete Enrollment
+                      Secure and Efficient Workflows
                     </h2>
                     <p className="self-stretch justify-start text-[#f4f5f7] text-lg font-normal font-['Rethink_Sans'] leading-7">
-                      Our platform powers over 250 successful championships,
-                      delivering seamless event management and top-tier
-                      competition experiences.
+                      From locking enrollments to adjusting marks, our software
+                      ensures data integrity and a secure workflow.
                     </p>
                     <img
                       src="/Line3.svg"
-                      className="absolute -top-8 h-[193px] rotate-180 -left-9"
+                      className="absolute -top-5 h-[193px] rotate-180 -left-7"
                     />
                   </div>
-                  <div className="h-[174px] flex flex-col justify-start items-start gap-1.5 relative">
+                  <div className="h-[200px]  w-[] flex flex-col justify-start items-start gap-1.5 relative">
                     <h2 className="self-stretch justify-start text-white text-[32px] font-normal font-['Alata'] leading-10">
-                      Streamlined Athlete Enrollment
+                      User-Friendly Interface & Dedicated Support
                     </h2>
                     <p className="self-stretch justify-start text-[#f4f5f7] text-lg font-normal font-['Rethink_Sans'] leading-7">
-                      Our platform powers over 250 successful championships,
-                      delivering seamless event management and top-tier
-                      competition experiences.
+                      Our software is designed to adapt to your specific
+                      championship needs, ensuring a smooth experience from
+                      setup to execution.
                     </p>
                     <img
                       src="/Line3.svg"
-                      className="absolute -top-8 h-[193px] rotate-180 -left-9"
+                      className="absolute -top-5 h-[193px] rotate-180 -left-7"
                     />
                   </div>
                 </div>
               </div>
             </div>
+            <img src="/Ell1.svg" className="absolute -top-42 left-0" />
+            <img src="/Ell2.svg" className="absolute -top-0 right-0" />
+            <img
+              src="/Ell3.svg"
+              className="absolute -bottom-47 left-1/2 transform -translate-x-1/2"
+            />
           </div>
           <img src="/whyUs2.svg" className="w-full"></img>
         </div>
