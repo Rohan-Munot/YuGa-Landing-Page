@@ -22,7 +22,7 @@ function App() {
         <div className="relative z-10 pt-[205px] container mx-auto px-4 flex flex-col gap-8 items-center">
           <div className="flex flex-col gap-6 max-w-[1200px]">
             <h1 className="text-center text-white text-[80px] font-normal font-['Alata'] leading-[84px] relative">
-              The World's First Yogasana <br /> Championship Software
+              The World's First Yogasana <br /> Championship Software fgkjdlkghjdlikhj
               <img
                 className="absolute right-40"
                 src="/SoftwareVector.svg"
